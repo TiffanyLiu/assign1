@@ -63,10 +63,13 @@ void draw() {
       // stop rolling
       // -------------------------------------------------
       // put your code inside here
-          int slotPosition=int (random(2));
-      int fruitId =int(random(7));
+      int randomA =int(random(5));
+      int randomB =int(random(5));
+      int randomC =int(random(5));
       
-      machine.setSlotFruit(slotPosition,fruitId);
+      machine.setSlotFruit(0,fruitId);
+      machine.setSlotFruit(1,fruitId);
+      machine.setSlotFruit(2,fruitId);
       
       totalScore=machine.getFruitCount(0)*60 + machine.getFruitCount(1)*10 + machine.getFruitCount(2)*20 + machine.getFruitCount(3)*30 + machine.getFruitCount(4)*40 + machine.getFruitCount(5)*50 + totalScore;
 
