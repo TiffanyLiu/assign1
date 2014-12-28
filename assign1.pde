@@ -63,9 +63,9 @@ void draw() {
       // stop rolling
       // -------------------------------------------------
       // put your code inside here
-      int randomA =int(random(5));
-      int randomB =int(random(5));
-      int randomC =int(random(5));
+      int randomA =int(random(6));
+      int randomB =int(random(6));
+      int randomC =int(random(6));
       
       machine.setSlotFruit(0,randomA);
       machine.setSlotFruit(1,randomB);
